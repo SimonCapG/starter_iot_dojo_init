@@ -7,8 +7,8 @@
 #include <Ticker.h>
 #include <lib/mqtt/mqtt_custom.h>
 
-const char *ssid = "SSID_WIFI";
-const char *password = "xxxxxxx";
+const char *ssid = "CAP_IOT_2G";
+const char *password = "qwertyui";
 
 WiFiClient espClient;
 Ticker wifiMqttReconnectTimer;
