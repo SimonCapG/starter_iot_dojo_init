@@ -78,6 +78,7 @@ void logMessage(String equipe, String message)
     unsigned long timestamp_ms = millis();
     String ip = WiFi.localIP().toString();
     message = "[" + ip + "] [" + String(timestamp_ms) + "] " + message;
+    Serial.println(message);
     mqttClient.publish(topic.c_str(), 0, true, message.c_str());
 }
 
