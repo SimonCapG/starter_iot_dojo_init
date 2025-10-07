@@ -9,7 +9,7 @@
 
 // Configuration MQTT
 // const char *mqtt_server = "192.168.8.108";  //ESPAGNE
-#define MQTT_HOST IPAddress(192, 168, 1, 108) // 192.168.224.194
+#define MQTT_HOST IPAddress(192, 168, 50, 173) // 192.168.224.194
 #define MQTT_PORT 1883
 
 const char *mqtt_topic = "esp32/logs"; // déporter en parametre
